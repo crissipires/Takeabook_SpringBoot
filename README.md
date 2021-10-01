@@ -100,4 +100,4 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações
 Feito por Crissiano Pires 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Crissiano-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/crissiano-pires/)](https://www.linkedin.com/in/crissiano-pires/)
-[![Gmail Badge](https://img.shields.io/badge/-crissiano_pires@hotmail.com-red?style=flat-square&link=mailto:crissianopiress@gmail.com)](mailto:crissianopiress@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-crissianopiress@gmail.com-red?style=flat-square&link=mailto:crissianopiress@gmail.com)](mailto:crissianopiress@gmail.com)
