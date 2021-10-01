@@ -1,13 +1,13 @@
 <!-- <h1 align="center">
   <img alt="Logo" src="./public/images/logo.svg" alt="ig.News">
 </h1>
-
+-->
 <h1 align="center">
-    ig.News - Next.js
+    🚧 Takeabook em construção 🚧
 </h1>
-<p align="center">Aplicação para inscrição de newsletter com pagamento via stripe</p>
+<!-- <p align="center">Aplicação para inscrição de newsletter com pagamento via stripe</p> -->
 
-
+<!--
 <p align="center">
  <a href="#sobre-o-projeto">Sobre o Projeto</a> •
  <a href="#tecnologias">Tecnologias</a> •
