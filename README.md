@@ -5,6 +5,7 @@
 <h1 align="center">
     🚧 Takeabook em construção 🚧
 </h1>
+
 <!-- <p align="center">Aplicação para inscrição de newsletter com pagamento via stripe</p> -->
 
 <!--
@@ -16,29 +17,29 @@
  <a href="#autor">Autor</a>
 </p> -->
 
-<!-- 
 ## Sobre o projeto
 
-O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação em ReactJS com NextJS para listagem de posts e sistema de inscrição(subscription).
+O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação utilizando ecossistema Spring para postagem de resumos de livros.
 
-A aplicação foi desenvolvida utilizando o framework NextJS aplicando conceitos como consumo de API externas, API Root, Server Side Rendering (SSR), Static Site Generation (SSG), STRIPE para pagamentos das subscriptions, NextAuth para autenticação com Github, FaunaDB para armazenar as informações do usuário em um banco de dados e Prismic CMS para adição e gerenciamento do conteúdo dos posts. -->
+A aplicação foi desenvolvida utilizando o ecossistema Spring aplicando conceitos como Spring Mvc, Camada de segurança, renderização e construção de layout e Mysql como banco de dados. 
 
-<!-- 
+ 
 ---
 
 ## Tecnologias
 
 Abaixo as tecnologias utilizadas para construção da aplicação
 
-- [ReactJS](https://reactjs.org/)
-- [NextJS](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [SASS](https://sass-lang.com/)
-- [Next-Auth](https://next-auth.js.org/)
-- [Stripe](https://stripe.com/)
-- [FaunaDB](https://fauna.com/)
-- [Prismic CMS](https://prismic.io/)
- -->
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+
+- Spring MVC
+- Camada de segurança com Spring Security
+- Renderização com Thymeleaf
+- Contrução do Layout com Bootstrap
+- Banco de dados Mysql
+
 ---
 <!-- 
 ## Configurações necessárias
@@ -89,11 +90,7 @@ $ yarn dev
 
 --- -->
 
-<!-- ## Licença
-
-Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
-
---- -->
+--- 
 
 ## Autor
 
