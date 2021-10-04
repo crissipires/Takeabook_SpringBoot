@@ -21,7 +21,7 @@
 
 O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação utilizando ecossistema Spring para postagem de resumos de livros.
 
-A aplicação foi desenvolvida utilizando o ecossistema Spring aplicando conceitos como Spring Mvc, Camada de segurança, renderização, construção de layout e conexão com banco de dados. 
+A aplicação foi desenvolvida utilizando o ecossistema Spring aplicando conceitos como padrão de projeto MVC, Camada de segurança, renderização, construção de layout e conexão com banco de dados. 
 
  
 ---
