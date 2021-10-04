@@ -49,7 +49,7 @@ public class TakeabookController {
         return "postForm";
     }
 
-    @RequestMapping(value = "/newpost", method= RequestMethod.POST)
+    @RequestMapping(value = "/savepost", method= RequestMethod.POST)
     public String savePost(@Valid Post post, BindingResult result, RedirectAttributes attributes){
         if(result.hasErrors()){
             attributes.addFlashAttribute("mensagem","Verifique se os campos obrigatórios foram preenchidos!");
@@ -58,5 +58,14 @@ public class TakeabookController {
         post.setDate(LocalDate.now());
         takeabookService.save(post);
         return "redirect:/posts";
+    }
+
+    @RequestMapping(value = "posts/edit/{id}")
+    public ModelAndView edit(@PathVariable("id") Long id){
+        ModelAndView mv = new ModelAndView("postEdit");
+        Post post = takeabookService.findById(id);
+        takeabookService.deleteById(id);
+        mv.addObject("post", post);
+        return mv;
     }
 }

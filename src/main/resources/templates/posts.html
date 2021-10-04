@@ -37,6 +37,7 @@
                     </p>
 
                     <span class="float-lg-end"><a th:href="@{'/posts/delete/' + ${post.id}}"><i class="material-icons" style="color: red;">delete</i></a></span>
+                    <span class="float-lg-end"><a th:href="@{'/posts/edit/' + ${post.id}}"><i class="material-icons" style="color: yellow;">mode_edit</i></a></span>
 
                     <a th:href="${(#mvc.url('TC#getPostDetails').arg(0,post.id)).build()}">
                         <h4 class="card-title" style="font-weight: bold;color: black;padding-top: 5px">
