@@ -11,4 +11,6 @@ public interface TakeabookService {
     Post findById(Long id);
 
     Post save(Post post);
+
+    void deleteById(Long id);
 }

@@ -28,4 +28,9 @@ public class TakeabookImp implements TakeabookService {
     public Post save(Post post) {
         return takeabookRepository.save(post);
     }
+
+    @Override
+    public void deleteById(Long id) {
+        takeabookRepository.deleteById(id);
+    }
 }

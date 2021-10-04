@@ -4,6 +4,8 @@
     <title>Takeabook</title>
     <!--Css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
 </head>
 <body style="background-color: #f7f7f7">
     <header>
@@ -23,12 +25,18 @@
                 </ol>
             </nav>
 
+            <div th:if="${message}" class="alert alert-success" role="alert">
+                <span th:text="${message}">Mensagem de sucesso!</span>
+            </div>
+
             <div class="card shadow-sm bg-white rounded" style="margin-top: 20px;" th:each="post : ${posts}">
                 <div class="card-body">
                     <p class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">
                         <span th:text="${post.author}"></span>
                         <span th:text="${post.date}"></span>
                     </p>
+
+                    <span class="float-lg-end"><a th:href="@{'/posts/delete/' + ${post.id}}"><i class="material-icons" style="color: red;">delete</i></a></span>
 
                     <a th:href="${(#mvc.url('TC#getPostDetails').arg(0,post.id)).build()}">
                         <h4 class="card-title" style="font-weight: bold;color: black;padding-top: 5px">
@@ -39,6 +47,7 @@
                     <p class="card-text">
                         <span th:utext="${#strings.abbreviate(post.text,400)}"></span>
                     </p>
+
                 </div>
             </div>
         </div>

@@ -30,11 +30,18 @@ public class TakeabookController {
     }
 
     @RequestMapping(value = "/posts/{id}", method = RequestMethod.GET)
-    public ModelAndView getPostDetails(@PathVariable("id") long id){
+    public ModelAndView getPostDetails(@PathVariable("id") long id) {
         ModelAndView mv = new ModelAndView("postDetails");
         Post post = takeabookService.findById(id);
-        mv.addObject("post",post);
+        mv.addObject("post", post);
         return mv;
+    }
+
+    @RequestMapping(value = "/posts/delete/{id}")
+    public String delete(@PathVariable Long id, RedirectAttributes attributes){
+        takeabookService.deleteById(id);
+        attributes.addFlashAttribute("message", "A postagem foi deletada com sucesso!");
+        return "redirect:/posts";
     }
 
     @RequestMapping(value = "/newpost",method = RequestMethod.GET)
