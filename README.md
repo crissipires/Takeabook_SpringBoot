@@ -35,10 +35,11 @@ Abaixo as tecnologias utilizadas para construção da aplicação
 ![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
 - Spring MVC
-- Camada de segurança com Spring Security
-- Renderização com Thymeleaf
-- Contrução do Layout com Bootstrap
-- Banco de dados Mysql
+- Spring Security
+- Thymeleaf
+- Spring Data JPA
+- Bootstrap
+- Mysql
 
 ---
 <!-- 
