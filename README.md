@@ -19,7 +19,7 @@
 
 ## Sobre o projeto
 
-O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação utilizando ecossistema Spring para postagem de resumos de livros.
+O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação utilizando framework SpringBoot para postagem de resumos de livros.
 
 A aplicação foi desenvolvida utilizando o ecossistema Spring aplicando conceitos como padrão de projeto MVC, Camada de segurança, renderização, construção de layout e conexão com banco de dados. 
 
@@ -32,7 +32,7 @@ Abaixo as tecnologias utilizadas para construção da aplicação
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springBoot&logoColor=white)
 
 - Spring MVC
 - Spring Security
