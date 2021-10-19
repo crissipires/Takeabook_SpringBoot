@@ -3,7 +3,7 @@
 </h1>
 -->
 <h1 align="center">
-    🚧 Takeabook em construção 🚧
+   📚Takeabook
 </h1>
 
 <!-- <p align="center">Aplicação para inscrição de newsletter com pagamento via stripe</p> -->
@@ -21,7 +21,7 @@
 
 O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação utilizando framework SpringBoot para postagem de resumos de livros.
 
-A aplicação foi desenvolvida utilizando o SpringBoot aplicando conceitos como padrão de projeto MVC, Camada de segurança, renderização, construção de layout e conexão com banco de dados. 
+A aplicação foi desenvolvida utilizando o ecossistema spring aplicando conceitos como padrão de projeto MVC, Camada de segurança, renderização, construção de layout e conexão com banco de dados. 
 
  
 ---
