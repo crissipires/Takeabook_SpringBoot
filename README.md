@@ -19,7 +19,7 @@
 
 ## Sobre o projeto
 
-O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação utilizando framework SpringBoot para postagem de resumos de livros.
+O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação utilizando o ecossistema spring para postagem de resumos de livros.
 
 A aplicação foi desenvolvida utilizando o ecossistema spring aplicando conceitos como padrão de projeto MVC, Camada de segurança, renderização, construção de layout e conexão com banco de dados. 
 
